@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-thutblog-dev-141321-authRole",
+      "UnauthRoleArn": "arn:aws:iam::961792810889:role/amplify-thutblog-dev-141321-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::961792810889:role/amplify-thutblog-dev-141321-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-thutblog-dev-141321-deployment",
+      "UnauthRoleName": "amplify-thutblog-dev-141321-unauthRole",
+      "StackName": "amplify-thutblog-dev-141321",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:961792810889:stack/amplify-thutblog-dev-141321/9e563010-88da-11ed-9d1f-02b10472c222",
+      "AmplifyAppId": "d1s67c0w7a46uh"
+    }
+  }
+}
