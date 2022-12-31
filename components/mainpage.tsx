@@ -5,7 +5,7 @@ export const Mainpage = (props: { //TypeScript do its stuff
   nowtheme: boolean; theme: (arg0: boolean) => void; 
 }) => {
   useEffect(()=>{
-    console.log(props.nowtheme) //Log everytime theme changed
+    //console.log(props.nowtheme) //Log everytime theme changed
   },[props.theme])  
   return(
     <div>
@@ -29,7 +29,7 @@ export const Mainpage = (props: { //TypeScript do its stuff
           props.theme(true);
         }}
         className={props.nowtheme === false ? "bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded mx-2"
-      : "bg-white  text-white font-semibold text-black py-2 px-4 border border-white  rounded mx-2"}
+      : "bg-white  text-black font-semibold text-black py-2 px-4 border border-white  rounded mx-2"}
       >
         Light Mode
       </button>
