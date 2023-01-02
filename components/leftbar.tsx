@@ -3,27 +3,68 @@ export const Leftbar = (props: {
   nowtheme: boolean;
 }) => {
   return (
-    <div className="w-1/5  grid gap-10 grid-cols-6 grid-rows-5">
-      
-        <div className={"border-4 p-2  ml-4 col-span-5  border-black "+(props.nowtheme === true ?'text-black':'text-white')}>A day to remember</div>
-        <div className={"border-black border-r-4 "}></div>
+    <div className="w-1/5 h-3/6 ml-10  grid gap-7 grid-cols-6 grid-rows-5">
+      <div className="bg-transparent  p-1 col-span-6">
+        <div
+          className={
+            "w-full h-full hover:scale-110 rounded-lg bg-gradient-to-l flex items-center from-bgEx-1 col-span-6  " +
+            (props.nowtheme === true
+              ? "text-white to-bgEx-base2 via-bgEx-1"
+              : "text-black to-bgEx-base")
+          }
+        >
+          <p className='pl-3'>A da</p>y to remember
+        </div>
+      </div>
+      <div className="bg-transparent p-1 col-span-6">
+        <div
+          className={
+            "w-full h-full hover:scale-110 bg-gradient-to-l rounded-lg flex items-center from-bgEx-2  " +
+            (props.nowtheme === true
+              ? "text-white to-bgEx-base2 via-bgEx-2"
+              : "text-black to-bgEx-base")
+          }
+        >
+          <p className='pl-3'>Cool</p>
+        </div>
+      </div>
+      <div className="bg-transparent p-1  col-span-6">
+        <div
+          className={
+            "w-full h-full hover:scale-110 bg-gradient-to-l rounded-lg flex items-center from-bgEx-3  " +
+            (props.nowtheme === true
+              ? "text-white to-bgEx-base2 via-bgEx-3"
+              : "text-black to-bgEx-base")
+          }
+        >
+          <p className='pl-3'>So s</p>o
+        </div>
+      </div>
+      <div className="bg-transparent p-1  col-span-6">
+        <div
+          className={
+            "w-full h-full hover:scale-110 bg-gradient-to-l rounded-lg flex items-center from-bgEx-4   " +
+            (props.nowtheme === true
+              ? "text-white to-bgEx-base2 via-bgEx-4"
+              : "text-black to-bgEx-base")
+          }
+        >
+          <p className='pl-3'>Blue</p>
+        </div>
+      </div>
 
-      
-        <div className={"border-4 p-2 ml-4 col-span-5   border-black "+(props.nowtheme === true ?'text-black':'text-white')}>Cool</div>
-        <div className={"border-black border-r-4"}></div>
-
-      
-        <div className={"border-4 p-2 ml-4 col-span-5 border-black "+(props.nowtheme === true ?'text-black':'text-white')}>So so</div>
-        <div className={"border-black border-r-4"}></div>
-
-      
-        <div className={"border-4 p-2 ml-4 col-span-5 border-black "+(props.nowtheme === true ?'text-black':'text-white')}>Blue</div>
-        <div className={"border-black border-r-4"}></div>
-
-      
-        <div className={"border-4 p-2 ml-4 col-span-5  border-black "+(props.nowtheme === true ?'text-black':'text-white')}>Better forget</div>
-        <div className={"border-black border-r-4"}></div>
-
+      <div className="bg-transparent p-1 col-span-6">
+        <div
+          className={
+            " bg-gradient-to-l hover:scale-110 rounded-lg  flex items-center   from-bgEx-5 w-full h-full " +
+            (props.nowtheme === true
+              ? "text-white  to-bgEx-base2 via-bgEx-5"
+              : "text-black to-bgEx-base")
+          }
+        >
+          <p className='pl-3'>Bett</p>er forget
+        </div>
+      </div>
     </div>
   );
 };

@@ -13,6 +13,16 @@ module.exports = {
         'bgtype2-b-1': ' rgba(255, 255, 169, 0.4)',
         'bgtype2-b-2': '#ffeed1', //to
         'bgtype2-b-3': 'rgba(255, 205, 237, 0.8)', //via
+
+        'bgEx-1': '#09ff00',
+        'bgEx-base' : '#ffffff', //for white
+        'bgEx-base2': 'rgba(0, 0,0,1)',  //for black
+        'bgEx-2' :'#00fdff',
+        'bgEx-3' : '#ecff00',
+        'bgEx-4' : '#ff9100',
+        'bgEx-5' : '#ff0000',
+      
+      
         
 
 
