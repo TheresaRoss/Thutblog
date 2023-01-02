@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.fc .fc-scroller-liquid-absolute {
+  
+    left: 52;
+  
+}

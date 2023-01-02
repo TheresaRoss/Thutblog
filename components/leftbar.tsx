@@ -3,7 +3,7 @@ export const Leftbar = (props: {
   nowtheme: boolean;
 }) => {
   return (
-    <div className="w-1/5 h-3/6 ml-10  grid gap-7 grid-cols-6 grid-rows-5">
+    <div className="relative top-[15%] w-5/6 h-[80%] ml-10  grid gap-7 grid-cols-6 grid-rows-5">
       <div className="bg-transparent  p-1 col-span-6">
         <div
           className={
